@@ -1,92 +1,41 @@
-# 🍷 Wine Quality Prediction System
+# AAA AI & Python Course
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_APP_URL)
+Coursework and project for the AAA AI with Data Science / Python course.
 
-## 🎯 Try the Live Demo
-👉 [Click here to use the app](YOUR_STREAMLIT_URL)
+## Project: Wine Quality Prediction
 
-## 📸 Preview
-![App Screenshot](screenshot.png)
+An end-to-end machine learning project that predicts red wine quality using physicochemical properties.
 
-## 🚀 Features
-- Real-time quality predictions
-- Dual model approach (Regression + Classification)
-- Interactive visualization
-- Confidence scores
+- **Models:** Random Forest Regressor (MAE: 0.52) and Classifier (F1: 0.68, ROC AUC: 0.75)
+- **App:** Interactive Streamlit interface for real-time predictions
+- **Dataset:** UCI Wine Quality Dataset (1,599 red wine samples, 11 features)
 
-## 📊 Model Performance
-- MAE: 0.52
-- F1-Score: 0.68
-- ROC AUC: 0.75
+See [project/](project/) for the full notebook, trained models, and Streamlit app.
 
-## 🛠️ Tech Stack
-Python | Scikit-learn | Streamlit | Pandas
+## Lectures
 
-## 💻 Run Locally
-\`\`\`bash
-pip install -r requirements.txt
-streamlit run app.py
-\`\`\`
+| Notebook | Topic |
+|----------|-------|
+| [01-python-basics](lectures/01-python-basics.ipynb) | Python fundamentals, Pandas, data cleaning |
+| [02-predictive-models](lectures/02-predictive-models.ipynb) | Regression models with scikit-learn |
+| [03-dogs-vs-cats-cnn](lectures/03-dogs-vs-cats-cnn.ipynb) | CNN image classification with TensorFlow |
+
+## Repo Structure
+
+```
+├── lectures/                          # Lecture notebooks and data
+│   ├── 01-python-basics.ipynb
+│   ├── 02-predictive-models.ipynb
+│   ├── 03-dogs-vs-cats-cnn.ipynb
+│   └── *.csv                          # Data files for exercises
+├── project/                           # Wine Quality Prediction project
+│   ├── wine_quality_prediction.ipynb  # Full EDA and modeling notebook
+│   ├── wine_quality_streamlit.py      # Interactive Streamlit app
+│   ├── wine.csv                       # Dataset
+│   ├── *.pkl                          # Trained models and scaler
+│   └── assignment.pdf                 # Project requirements
 ```
 
----
+## Author
 
-## ⭐ RECOMMENDED APPROACH: Combination Strategy
-
-**Do this for maximum impact:**
-
-1. ✅ **Deploy to Streamlit Cloud** → Get live URL
-2. ✅ **Record 30-sec video demo** → Show it in action
-3. ✅ **Create GitHub repo** → Professional code showcase
-4. ✅ **Take 2-3 screenshots** → Visual proof
-
-**Updated LinkedIn Post Section:**
-```
-🚀 **Live Demo & Code:**
-🔗 Try it yourself: [Streamlit App URL]
-💻 View source code: [GitHub URL]
-📹 Watch demo: [Video/GIF]
-
-*No installation required - just click and predict!*
-```
-
----
-
-## 🎬 Quick Win: Deploy Right Now!
-
-**5-Minute Deployment:**
-
-1. Create `requirements.txt`:
-```
-   streamlit
-   pandas
-   numpy
-   scikit-learn
-   joblib
-```
-
-2. Create GitHub repo:
-   - Go to github.com → New Repository
-   - Upload: `app.py`, `requirements.txt`, and `.pkl` files
-
-3. Deploy:
-   - Go to share.streamlit.io
-   - Connect repository
-   - Deploy!
-
-**That's it!** You'll have a live URL in minutes! 🎉
-
----
-
-## 💡 Pro Tip for LinkedIn:
-
-Instead of just posting a link, do this:
-```
-🚀 Live Demo: Built a user-friendly Streamlit interface 
-where anyone can input wine characteristics and instantly 
-get quality predictions with confidence scores!
-
-👉 Try it now: [YOUR_URL]
-(No login required - works on mobile too! 📱)
-
-[Video demo showing someone using it]
+Michael - [@HighviewOne](https://github.com/HighviewOne)
