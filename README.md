@@ -30,7 +30,8 @@ See [project/](project/) for the full notebook, trained models, and Streamlit ap
 │   └── *.csv                          # Data files for exercises
 ├── project/                           # Wine Quality Prediction project
 │   ├── wine_quality_prediction.ipynb  # Full EDA and modeling notebook
-│   ├── wine_quality_streamlit.py      # Interactive Streamlit app
+│   ├── wine_quality_streamlit.py      # Interactive Streamlit app (v1)
+│   ├── wine_quality_streamlit_v2.py   # Updated Streamlit app (v2)
 │   ├── wine.csv                       # Dataset
 │   ├── *.pkl                          # Trained models and scaler
 │   └── assignment.pdf                 # Project requirements
